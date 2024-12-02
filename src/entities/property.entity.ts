@@ -12,5 +12,5 @@ export class Property {
   description: string;
 
   @Column({ default: 0 })
-  price: string;
+  price: number;
 }
